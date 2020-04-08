@@ -13,3 +13,7 @@ theme_remote: sgoehringer/gencc-static-test
 collections:
   - members
   - articles
+  - leadership
+
+leadership:
+  sort_by: sort
