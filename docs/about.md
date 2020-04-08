@@ -2,7 +2,6 @@
 layout: about
 title: About
 ---
-# About
 ## Why is the GenCC needed?
 Several groups and resources provide information that pertains to the validity of gene-disease relationships; however, the standards and terminologies to define the evidence base for a gene’s role in disease are still evolving and the community is in need of trusted and harmonized sources that define the level of evidence for a gene’s role in disease. To tackle this issue, the Gene Curation Coalition (GenCC) was formed.
 
