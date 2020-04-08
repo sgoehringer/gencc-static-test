@@ -9,7 +9,7 @@
   <main id="content" class="container" role="main">
     {{ content }}
 
-    {% for article in site.articles | limit:2 %}
+    {% for article in site.articles | limit:4 %}
     <h2>{{ article.name }}</h2>
     <div>{{ article.summary }}</div>
     {% endfor %}
