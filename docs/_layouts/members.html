@@ -10,23 +10,31 @@
     {{ content }}
 
     {% for item in site.members | sort: 'name' %}
-    <h2>{{ item.name }}</h2>
-    {{ item.summary }}
-      {% if item.logo_1_file %}
-        <img src="{{ site.url }}/assets/{{ item.logo_1_file }}" alt="{{ item.logo_1_label }}" class="img-fluid" />
-      {% endif %}
-      {% if item.logo_2_file %}
-        <img src="{{ site.url }}/assets/{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
-      {% endif %}
+    <div class="mb-4">
+      <h2>{{ item.name }}</h2>
+        {% if item.logo_1_file %}
+          <div class="col-sm-2 pull-right">
+            <img src="{{ site.url }}/assets/{{ item.logo_1_file }}" alt="{{ item.logo_1_label }}" class="img-fluid" />
+          </div>
+        {% endif %}
+        {% if item.logo_2_file %}
+          <div class="col-sm-2 pull-right">
+            <img src="{{ site.url }}/assets/{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
+          </div>
+        {% endif %}
+        {{ item.summary }}
+        {% if item.link_1_to %}
+          <div class="mt-2">
+            <a href="{{ item.link_1_to }}" title="{{ item.link_1_label }}">{{ item.link_1_label }}</a>
+          </div>
+        {% endif %}
 
-      {% if item.link_1_to %}
-      <a href="{{ item.link_1_to }}" title="{{ item.link_1_label }}">{{ item.link_1_label }}</a>
-      {% endif %}
-
-      {% if item.link_2_to %}
-      <a href="{{ item.link_2_to }}" title="{{ item.link_2_label }}">{{ item.link_2_label }}</a>
-      {% endif %}
-
+        {% if item.link_2_to %}
+          <div class="mt-2">
+            <a href="{{ item.link_2_to }}" title="{{ item.link_2_label }}">{{ item.link_2_label }}</a>
+          </div>
+        {% endif %}
+    </div>
     {% endfor %}
 
     {% include footer.html %}
