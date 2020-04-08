@@ -2,7 +2,11 @@ title: Cayman theme
 description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-url: http://scottgoehringer.com/gencc-static-test/
 
+url: http://scottgoehringer.com/gencc-static-test/
 url_members: members.html
+url_about: about.html
+url_news: news.html
+
+
 theme_remote: sgoehringer/gencc-static-test

@@ -1,4 +1,5 @@
 ---
+layout: members
 name: Jane Doe
 position: Developer
 ---
