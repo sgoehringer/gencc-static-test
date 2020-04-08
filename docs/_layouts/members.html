@@ -12,14 +12,14 @@
     {% for item in site.members | sort: 'name' %}
     <div class="mb-4 row">
       <h2 class="col-12">{{ item.name }}</h2>
-      <div>
+      <div class="col-12">
         {% if item.logo_1_file %}
-          <div class="col-sm-2 pull-right">
+          <div class="col-sm-2 float-right">
             <img src="{{ site.url }}/assets/{{ item.logo_1_file }}" alt="{{ item.logo_1_label }}" class="img-fluid" />
           </div>
         {% endif %}
         {% if item.logo_2_file %}
-          <div class="col-sm-2 pull-right">
+          <div class="col-sm-2 float-right">
             <img src="{{ site.url }}/assets/{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
           </div>
         {% endif %}
