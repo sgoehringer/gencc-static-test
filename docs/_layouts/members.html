@@ -11,7 +11,6 @@
 
     {% for item in site.members | sort: 'name' %}
     <div class="mb-4 row">
-      <h2 class="col-12">{{ item.name }}</h2>
       <div class="col-12">
         {% if item.logo_1_file %}
           <div class="col-sm-2 float-right">
@@ -23,7 +22,10 @@
             <img src="{{ site.url }}/assets/{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
           </div>
         {% endif %}
+
+        <h2 class="">{{ item.name }}</h2>
         {{ item.summary }}
+
         {% if item.link_1_to %}
           <div class="mt-2">
             <a href="{{ item.link_1_to }}" title="{{ item.link_1_label }}">{{ item.link_1_label }}</a>
