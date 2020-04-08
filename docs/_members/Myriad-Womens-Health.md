@@ -10,7 +10,7 @@ link_2_label: Website
 link_2_to:
 
 logo_1_label: Myriad Women's Health
-logo_1_file: logo-mwh
+logo_1_file: logo-mwh.png
 
 logo_2_label:
 logo_2_file:
