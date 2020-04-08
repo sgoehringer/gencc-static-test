@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hello
+Hello 2
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
