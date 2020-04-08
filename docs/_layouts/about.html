@@ -6,15 +6,15 @@
   <body>
     {% include header-standard.html %}
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="container" role="main">
       <div class="row">
         <div class="col-12">
           <h1>{{ page.title }}</h1>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-5">
           {{ content }}
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-5 offset-md-2">
           <h3>Steering Committee</h3>
           <ul class="list-group"></ul>
           {% for item in site.leadership| sort: 'sort' %}
