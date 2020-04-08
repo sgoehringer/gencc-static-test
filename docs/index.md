@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home Page
 ---
 
@@ -27,7 +27,3 @@ Terms that were agreed upon are "Definitive, Strong, Moderate, Limited, Disputed
 All member groups will now use or map to relevant harmonized terms in their curation work.
 
 # News & Updates
-{% for article in site.articles | limit:2 %}
-    <h2>{{ article.name }}</h2>
-    <div>{{ article.summary }}</div>
-{% endfor %}
