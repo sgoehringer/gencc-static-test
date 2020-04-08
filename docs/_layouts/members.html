@@ -9,7 +9,7 @@
   <main id="content" class="main-content" role="main">
     {{ content }}
 
-    {% for item in site.members %}
+    {% for item in site.members | sort: 'name' %}
     <h2>{{ item.name }}</h2>
     {{ item.summary }}
       {% if item.logo_1_file %}
