@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hello 2
+Hello 2 - local theme
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
