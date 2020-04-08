@@ -13,10 +13,10 @@
     <h2>{{ item.name }}</h2>
     {{ item.summary }}
       {% if item.logo_1_file %}
-        <img src="{{ item.logo_1_file }}" alt="{{ item.logo_1_label }}" class="img-fluid" />
+        <img src="{{ site.url }}/assets/{{ item.logo_1_file }}" alt="{{ item.logo_1_label }}" class="img-fluid" />
       {% endif %}
       {% if item.logo_2_file %}
-        <img src="{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
+        <img src="{{ site.url }}/assets/{{ item.logo_2_file }}" alt="{{ item.logo_2_label }}" class="img-fluid" />
       {% endif %}
 
       {% if item.link_1_to %}
