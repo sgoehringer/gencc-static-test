@@ -9,6 +9,14 @@
   <main id="content" class="container" role="main">
     {{ content }}
 
+    {{ section1 }}
+
+    {{ section2 }}
+
+    {{ section3 }}
+
+    {{ section4 }}
+
     {% for article in site.articles | limit:4 %}
     <h2>{{ article.name }}</h2>
     <div>{{ article.summary }}</div>
