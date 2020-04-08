@@ -1,4 +1,5 @@
 ---
+layout: article
 name: Jane Doe
 position: Developer
 ---
