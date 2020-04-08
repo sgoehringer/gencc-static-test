@@ -7,7 +7,28 @@
     {% include header-standard.html %}
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      <div class="row">
+        <div class="col-sm-6">
+          {{ content }}
+        </div>
+        <div class="col-sm-6">
+          <h3>Steering Committee</h3>
+          <ul class="list-group"></ul>
+          {% for item in site.leadership %}
+            <li>
+              <h4 class="h5 m-0 p-0">
+              </h4>
+                {{ item.name }}
+                {% if item.position %}
+                  {{ item.position }}
+                {% endif %}
+              </h4>
+              <div class="small" itemprop="title">{{ item.organization }}</div>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
       {% include footer.html %}
     </main>
   </body>
