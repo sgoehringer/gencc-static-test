@@ -1,6 +1,6 @@
 ---
 layout: member
-name: DECIPHER
+title: DECIPHER
 summary: DECIPHER (DatabasE of genomiC varIation and Phenotype in Humans using Ensembl Resources) is an interactive web-based database which incorporates a suite of tools designed to aid the interpretation of genomic variants.  It is widely used to support clinical practice in the UK NHS, to support the Deciphering Developmental Disorders (DDD) project , and to support an international network of clinicians and researchers working with predominantly rare diseases.
 
 link_1_label: Deciphering Developmental Disorders (DDD) project

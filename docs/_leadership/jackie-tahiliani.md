@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Jackie Tahiliani
+title: Jackie Tahiliani
 position:
 organization: Invitae
 sort: Tahiliani

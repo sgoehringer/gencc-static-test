@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Heidi Rehm
+title: Heidi Rehm
 position: GenCC Chair
 organization: ClinGen
 sort: 1

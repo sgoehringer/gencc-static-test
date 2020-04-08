@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home Page
 ---
 
 Hello 2 - local theme

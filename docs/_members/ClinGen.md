@@ -1,6 +1,6 @@
 ---
 layout: member
-name: ClinGen
+title: ClinGen
 summary: ClinGen is a National Institutes of Health (NIH)-funded resource dedicated to building a central resource that defines the clinical relevance of genes and variants for use in precision medicine and research.
 
 link_1_label: Website

@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Helen Firth
+title: Helen Firth
 position:
 organization: DECIPHER
 sort: Firth

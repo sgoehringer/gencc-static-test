@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Alison Coffey
+title: Alison Coffey
 position:
 organization: Illumina
 sort: Coffey

@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Fiona Cunningham
+title: Fiona Cunningham
 position:
 organization: EBI
 sort: Cunningham

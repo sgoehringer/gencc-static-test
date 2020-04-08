@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Ellen McDonagh
+title: Ellen McDonagh
 position:
 organization: Genomics England PanelApp
 sort: McDonagh

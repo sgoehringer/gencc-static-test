@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Ambry Genetics
+title: Ambry Genetics
 summary: Ambry genetics is a CLIA-certified fee-for-service clinical testing laboratory.
 
 link_1_label: Website

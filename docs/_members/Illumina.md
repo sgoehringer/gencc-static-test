@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Illumina
+title: Illumina
 summary: The Illumina Clinical Services Laboratory offers the TruGenome Undiagnosed Disease Test, a clinical whole-genome sequencing test for patients with a suspected rare and undiagnosed genetic disease. The lab also supports clinical programs such as the iHope Program, which donates clinical genome sequencing tests to help find answers for children facing these types of diseases.
 
 link_1_label: Website

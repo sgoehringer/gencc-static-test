@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Invitae
+title: Invitae
 summary:
 
 link_1_label: Website

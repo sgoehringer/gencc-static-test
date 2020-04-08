@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Marie Balzotti
+title: Marie Balzotti
 position:
 organization: Myriad Women's Health
 sort: Balzotti

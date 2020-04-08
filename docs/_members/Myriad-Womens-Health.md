@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Myriad Women's Health
+title: Myriad Women's Health
 summary: As a CLIA-certified clinical testing laboratory, Myriad Women’s Health provides genetic screening and support for women and their families.
 
 link_1_label: Website

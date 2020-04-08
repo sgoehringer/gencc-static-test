@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Christina Austin-Tse
+title: Christina Austin-Tse
 position:
 organization: Laboratory for Molecular Medicine (LMM)
 sort: Austin-Tse

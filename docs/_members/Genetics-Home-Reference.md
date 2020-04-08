@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Genetics Home Reference
+title: Genetics Home Reference
 summary: Genetics Home Reference is a consumer health resource from the National Library of Medicine, part of the National Institutes of Health. This website provides information for the general public about health conditions with a genetic basis and discusses the functions of and variations in genes and/or chromosomes that underlie these conditions.
 
 link_1_label: Website

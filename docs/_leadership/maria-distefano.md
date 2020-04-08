@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Marina DiStefano
+title: Marina DiStefano
 position: GenCC Coordinator
 organization: ClinGen
 sort: 2

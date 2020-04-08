@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Annie Olry
+title: Annie Olry
 position:
 organization: Orphanet
 sort: Olry

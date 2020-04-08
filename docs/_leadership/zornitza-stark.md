@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Zornitza Stark
+title: Zornitza Stark
 position:
 organization: PanelApp Australia
 sort: Stark

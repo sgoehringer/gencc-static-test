@@ -1,6 +1,6 @@
 ---
 layout: member
-name: PanelApp Australia
+title: PanelApp Australia
 summary: PanelApp Australia is managed by the Australian Genomics Health Alliance (Australian Genomics) and is used  by Australian diagnostic laboratories, clinicians and researchers to establish and maintain consensus virtual gene panels for use in genomic analysis.
 
 link_1_label: Website

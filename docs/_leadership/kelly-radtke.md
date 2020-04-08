@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Kelly Radtke
+title: Kelly Radtke
 position:
 organization: Ambry
 sort: Radtke

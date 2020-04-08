@@ -1,6 +1,6 @@
 ---
 layout: leadership
-name: Ada Hamosh
+title: Ada Hamosh
 position:
 organization: OMIM
 sort: Hamosh
