@@ -95,7 +95,7 @@ a {
   }
 }
 
-.btn {
+.btn-brand {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -113,7 +113,7 @@ a {
     border-color: rgba(255, 255, 255, 0.3);
   }
 
-  + .btn {
+  + .btn-brand {
     margin-left: 1rem;
   }
 
@@ -132,7 +132,7 @@ a {
     padding: 0.75rem;
     font-size: 0.9rem;
 
-    + .btn {
+    + .btn-brand {
       margin-top: 1rem;
       margin-left: 0;
     }
