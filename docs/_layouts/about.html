@@ -17,7 +17,7 @@
         <div class="col-md-5 offset-md-2">
           <h2>{{ page.leadership_title }}</h2>
           <ul class="list-group"></ul>
-          {% assign sorted_items = site.leadership | sort:'meta.sort' %}
+          {% assign sorted_items = site.leadership | sort:"meta.sort" %}
           {% for item in sorted_items %}
             <li class="list-group-item">
               <h4 class="h5 m-0 p-0">
