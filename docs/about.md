@@ -1,6 +1,12 @@
 ---
+# Which layout to use
 layout: about
+# The page title
 title: About
+# Change the name above the leadership list
+leadership_title: Steering Committee
+
+## Below the --- you write the page text. Remember, this is Markdown -> https://www.markdownguide.org/cheat-sheet
 ---
 ## Why is the GenCC needed?
 Several groups and resources provide information that pertains to the validity of gene-disease relationships; however, the standards and terminologies to define the evidence base for a gene’s role in disease are still evolving and the community is in need of trusted and harmonized sources that define the level of evidence for a gene’s role in disease. To tackle this issue, the Gene Curation Coalition (GenCC) was formed.

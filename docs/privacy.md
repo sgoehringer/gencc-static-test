@@ -1,6 +1,10 @@
 ---
+# Which layout to use
 layout: default
+# The page title
 title: Privacy
+
+## Below the --- you write the page text. Remember, this is Markdown -> https://www.markdownguide.org/cheat-sheet
 ---
 # GenCC Website Privacy Policy
 We take your privacy seriously, and we have created this website privacy policy to disclose our information gathering practices for the personally identifiable information (PII) collected at www.thegencc.org

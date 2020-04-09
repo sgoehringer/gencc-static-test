@@ -1,6 +1,10 @@
 ---
+# Which layout to use
 layout: default
+# The page title
 title: Terms
+
+## Below the --- you write the page text. Remember, this is Markdown -> https://www.markdownguide.org/cheat-sheet
 ---
 
 # GenCC Terms of Use
