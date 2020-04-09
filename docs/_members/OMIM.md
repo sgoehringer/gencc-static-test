@@ -7,10 +7,10 @@ title: OMIM
 summary: Online Mendelian Inheritance in Man (OMIM) is a comprehensive, authoritative compendium of human genes and genetic phenotypes that is freely available and updated daily.
 
 # Optional label of and website address to a website (Two availble at the moment)
-link_1_label: Website
-link_1_to: http://www.omim.org
-link_2_label: Website
-link_2_to:
+link_website_1_label: Website
+link_website_1_to: http://www.omim.org
+link_website_2_label: Website
+link_website_2_to:
 
 # Optional label of and logo (file should be added to assets) (Two availble at the moment).
 logo_1_label: Online Mendelian Inheritance in Man (OMIM)

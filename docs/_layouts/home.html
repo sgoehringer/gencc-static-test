@@ -64,9 +64,32 @@
                     <div class="col-lg-12">
                       {{ section3 }}
 
-                      {% for article in site.articles | limit:4 %}
-                        <h2>{{ article.name }}</h2>
-                        <div>{{ article.summary }}</div>
+                      {% for item in site.articles | limit:4 %}
+                        <h2>{{ item.name }}</h2>
+                        <div>{{ item.summary }}</div>
+                        {% if item.link_file_1_to %}
+                        <div class="mt-1">
+                          <a href="{{ item.link_file_1_to }}" title="{{ item.link_file_1_label }}">{{ item.link_file_1_label }}</a>
+                        </div>
+                        {% endif %}
+
+                        {% if item.link_file_2_to %}
+                        <div class="mt-1">
+                          <a href="{{ item.link_file_2_to }}" title="{{ item.link_file_2_label }}">{{ item.link_file_2_label }}</a>
+                        </div>
+                        {% endif %}
+
+                        {% if item.link_website_1_to %}
+                        <div class="mt-1">
+                          <a href="{{ item.link_website_1_to }}" title="{{ item.link_website_1_label }}">{{ item.link_website_1_label }}</a>
+                        </div>
+                        {% endif %}
+
+                        {% if item.link_website_2_to %}
+                        <div class="mt-1">
+                          <a href="{{ item.link_website_2_to }}" title="{{ item.link_website_2_label }}">{{ item.link_website_2_label }}</a>
+                        </div>
+                        {% endif %}
                       {% endfor %}
                     </div>
                   </div>

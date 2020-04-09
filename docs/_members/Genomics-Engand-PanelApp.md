@@ -7,10 +7,10 @@ title: Genomics Engand PanelApp
 summary: Genomics England's PanelApp is a knowledgebase of curated gene panels which crowdsources expert reviews for gene-disease validity assessment The gene panels are utilised by Genomics England’s genome interpretation services, support a consensus in gene content for the NHSE Genomic Medicine Service, as well as worldwide for omics analysis.
 
 # Optional label of and website address to a website (Two availble at the moment)
-link_1_label: Website
-link_1_to:
-link_2_label: Website
-link_2_to:
+link_website_1_label: Website
+link_website_1_to:
+link_website_2_label: Website
+link_website_2_to:
 
 # Optional label of and logo (file should be added to assets) (Two availble at the moment).
 logo_1_label: Genomics Engand PanelApp
