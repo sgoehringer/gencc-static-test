@@ -17,12 +17,12 @@
               <div class="row p-0 m-0">
                 <div class="row mb-5 ">
                   <div class="col-lg-12">
-                    <h2>{{ section1-heading }}</h2>
+                    <h2>{{ page.section1-heading }}</h2>
                     <a href="{{ site.url }}{{ site.url_members }}" class="btn btn-primary float-right">
                       <h2 class="p-0 m-0">{{ member_count.size }}</h2>
                       <small>GenCC Members</small>
                     </a>
-                    {{ section1 }}
+                    {{ page.section1 }}
                   </div>
                 </div>
               </div>
@@ -42,8 +42,8 @@
               <div class="row p-0 m-0">
                 <div class="row mb-5 ">
                   <div class="col-lg-12">
-                    <h2>{{ section2-heading }}</h2>
-                    {{ section2 }}
+                    <h2>{{ page.section2-heading }}</h2>
+                    {{ page.section2 }}
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@
                 <div class="row p-0 m-0">
                   <div class="row mb-5 ">
                     <div class="col-lg-12">
-                      <h2>{{ section3-heading }}</h2>
+                      <h2>{{ page.section3-heading }}</h2>
                       {% for item in site.projects | limit:4 %}
                       <div class="mb-4">
                         <h3 class="">{{ item.name }}</3>
@@ -91,7 +91,7 @@
                 <div class="row p-0 m-0">
                   <div class="row mb-5 ">
                     <div class="col-lg-12">
-                      <h2>{{ section4-heading }}</h2>
+                      <h2>{{ page.section4-heading }}</h2>
 
                       {% for item in site.articles | limit:4 %}
                       <div class="mb-4">
