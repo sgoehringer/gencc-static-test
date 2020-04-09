@@ -16,6 +16,7 @@ collections:
   - members
   - articles
   - leadership
+  - projects
 
 leadership:
   sort_by: sort
