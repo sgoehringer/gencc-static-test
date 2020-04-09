@@ -11,8 +11,6 @@ title: Home Page
 # GenCC Members
 The GenCC organizations maintain resources that provide information pertaining to the validity of gene-disease relationships or curate this information as clinical testing laboratories.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
 {% capture section1 %}
 # Our Results
 ## Access GenCC Member Results (Coming Soon!)
