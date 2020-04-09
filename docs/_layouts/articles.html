@@ -10,7 +10,8 @@
     {{ content }}
 
 
-    {% for item in site.articles %}
+    {% assign sorted_items = (site.articles | sort: 'date') %}
+    {% for item in sorted_items %}
     <div class="mb-4 pb-4 row">
       <div class="col-12">
         <div class="col-sm-2 float-right">
