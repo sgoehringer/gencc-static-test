@@ -63,6 +63,7 @@
                   <div class="row mb-5 ">
                     <div class="col-lg-12">
                       {{ section3 }}
+                      section3
                     </div>
                   </div>
                 </div>
@@ -86,7 +87,8 @@
                       {{ section4 }}
 
                       {% for item in site.articles | limit:4 %}
-                        <h2>{{ item.name }}</h2>
+                      <div class="mb-4">
+                        <h3 class="h4">{{ item.name }}</3>
                         <div>{{ item.summary }}</div>
                         {% if item.link_file_1_to %}
                         <div class="mt-1">
@@ -111,6 +113,7 @@
                           <a href="{{ item.link_website_2_to }}" title="{{ item.link_website_2_label }}">{{ item.link_website_2_label }}</a>
                         </div>
                         {% endif %}
+                        </div>
                       {% endfor %}
                     </div>
                   </div>
