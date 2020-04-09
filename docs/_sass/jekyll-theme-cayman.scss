@@ -5,6 +5,13 @@
 @import "variables-brand";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+// Brand Additionls
+.bg-black {
+  background-color: #000;
+}
+
+
+
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
