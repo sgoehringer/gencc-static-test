@@ -9,14 +9,20 @@ title: Home Page
 ---
 
 # GenCC Members
-The GenCC organizations maintain resources that provide information pertaining to the validity of gene-disease relationships or curate this information as clinical testing laboratories.
 
 {% capture section1 %}
+The GenCC organizations maintain resources that provide information pertaining to the validity of gene-disease relationships or curate this information as clinical testing laboratories.
+{% endcapture %}
+
+
+{% capture section2 %}
 # Our Results
 ## Access GenCC Member Results (Coming Soon!)
 Work is underway to publicly display gene-disease validity curation results from GenCC member groups.
 {% endcapture %}
-{% capture section2 %}
+
+
+{% capture section3 %}
 # GenCC Projects
 
 ## Gene Validity Term Delphi Survey
@@ -31,6 +37,7 @@ Terms that were agreed upon are "Definitive, Strong, Moderate, Limited, Disputed
 All member groups will now use or map to relevant harmonized terms in their curation work.
 {% endcapture %}
 
-{% capture section3 %}
+
+{% capture section4 %}
 # News & Updates
 {% endcapture %}
