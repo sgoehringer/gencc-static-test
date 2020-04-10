@@ -95,8 +95,8 @@
 
                       {% for item in site.articles | limit:4 %}
                       <div class="mb-4">
-                        <h3 class="">{{ item.name }}</3>
-                        <div>{{ item.summary }}</div>
+                        <h3 class="">{{ item.name }}</h3>
+                        <div class="">{{ item.summary }}</div>
                         {% if item.link_file_1_to %}
                         <div class="mt-1">
                           <a href="{{ item.link_file_1_to }}" title="{{ item.link_file_1_label }}">{{ item.link_file_1_label }}</a>
