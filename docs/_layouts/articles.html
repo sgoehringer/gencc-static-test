@@ -19,6 +19,12 @@
         <h2 class="mt-0 pt-0">{{ item.title }}</h2>
         {{ item.summary }}
 
+        {% if item.content %}
+        <div class="mt-1">
+          <a href="{{ item.path }}" title="Learn more about {{ item.link_file_1_label }}"><i class="fas fa-angle-double-right"></i> Read More...</a>
+        </div>
+        {% endif %}
+
         {% if item.link_file_1_to %}
         <div class="mt-1">
           <a href="{{ item.link_file_1_to }}" title="{{ item.link_file_1_label }}"><i class="fas fa-file"></i> {{ item.link_file_1_label }}</a>
