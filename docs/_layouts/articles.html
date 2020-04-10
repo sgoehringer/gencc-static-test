@@ -19,7 +19,7 @@
         <h2 class="mt-0 pt-0">{{ item.title }}</h2>
         {{ item.summary }}
         {% assign item-content = item.content | strip_newlines %}
-        {% if item-content %}
+        {% if item-content != "" %}
         <div class="mt-1">
           <a href="{{ site.url }}{{ item.url }}" title="Learn more about {{ item.link_file_1_label }}"><i class="fas fa-angle-double-right"></i> Read More</a>
         </div>
