@@ -94,32 +94,37 @@
                       <h2>{{ page.section4-heading }}</h2>
 
                       {% for item in site.articles | limit:4 %}
-                      <div class="mb-4">
-                        <h3 class="">{{ item.name }}</h3>
-                        <div class="">{{ item.summary }}</div>
-                        {% if item.link_file_1_to %}
-                        <div class="mt-1">
-                          <a href="{{ item.link_file_1_to }}" title="{{ item.link_file_1_label }}">{{ item.link_file_1_label }}</a>
+                      <div class="mb-4 row">
+                        <div class="col-sm-2 float-right hidden-sm hidden-xs hidden-md">
+                          <img src="{{ site.url }}assets/icon-doc.png" alt="Icon - {{ item.title }}" class="img-fluid" />
                         </div>
-                        {% endif %}
+                        <div class="col-sm-10">
+                          <h3 class="">{{ item.name }}</h3>
+                          <div class="">{{ item.summary }}</div>
+                          {% if item.link_file_1_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_file_1_to }}" title="{{ item.link_file_1_label }}"><i class="fas fa-file"></i> {{ item.link_file_1_label }}</a>
+                          </div>
+                          {% endif %}
 
-                        {% if item.link_file_2_to %}
-                        <div class="mt-1">
-                          <a href="{{ item.link_file_2_to }}" title="{{ item.link_file_2_label }}">{{ item.link_file_2_label }}</a>
-                        </div>
-                        {% endif %}
+                          {% if item.link_file_2_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_file_2_to }}" title="{{ item.link_file_2_label }}"><i class="fas fa-file"></i> {{ item.link_file_2_label }}</a>
+                          </div>
+                          {% endif %}
 
-                        {% if item.link_website_1_to %}
-                        <div class="mt-1">
-                          <a href="{{ item.link_website_1_to }}" title="{{ item.link_website_1_label }}">{{ item.link_website_1_label }}</a>
-                        </div>
-                        {% endif %}
+                          {% if item.link_website_1_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_website_1_to }}" title="{{ item.link_website_1_label }}"><i class="fas fa-external-link-alt"></i>{{ item.link_website_1_label }}</a>
+                          </div>
+                          {% endif %}
 
-                        {% if item.link_website_2_to %}
-                        <div class="mt-1">
-                          <a href="{{ item.link_website_2_to }}" title="{{ item.link_website_2_label }}">{{ item.link_website_2_label }}</a>
+                          {% if item.link_website_2_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_website_2_to }}" title="{{ item.link_website_2_label }}"><i class="fas fa-external-link-alt"></i>{{ item.link_website_2_label }}</a>
+                          </div>
+                          {% endif %}
                         </div>
-                        {% endif %}
                         </div>
                       {% endfor %}
                     </div>
