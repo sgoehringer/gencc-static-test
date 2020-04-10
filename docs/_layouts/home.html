@@ -76,6 +76,33 @@
                         <div class="col-sm-10">
                         <h3 class="">{{ item.name }}</h3>
                           <div>{{ item.content }}</div>
+                          {% if item.link_file_1_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_file_1_to }}" class="text-white font-weight-bold" title="{{ item.link_file_1_label }}"><i
+                                class="fas fa-file"></i> {{ item.link_file_1_label }}</a>
+                          </div>
+                          {% endif %}
+
+                          {% if item.link_file_2_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_file_2_to }}" class="text-white font-weight-bold" title="{{ item.link_file_2_label }}"><i
+                                class="fas fa-file"></i> {{ item.link_file_2_label }}</a>
+                          </div>
+                          {% endif %}
+
+                          {% if item.link_website_1_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_website_1_to }}" class="text-white font-weight-bold" title="{{ item.link_website_1_label }}"><i
+                                class="fas fa-external-link-alt"></i> {{ item.link_website_1_label }}</a>
+                          </div>
+                          {% endif %}
+
+                          {% if item.link_website_2_to %}
+                          <div class="mt-1">
+                            <a href="{{ item.link_website_2_to }}" class="text-white font-weight-bold" title="{{ item.link_website_2_label }}"><i
+                                class="fas fa-external-link-alt"></i> {{ item.link_website_2_label }}</a>
+                          </div>
+                          {% endif %}
                         </div>
                       </div>
                       {% endfor %}
