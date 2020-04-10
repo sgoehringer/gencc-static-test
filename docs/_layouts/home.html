@@ -137,6 +137,12 @@
                         <div class="col-sm-10">
                           <h3 class="">{{ item.name }}</h3>
                           <div class="">{{ item.summary }}</div>
+                          {% if item.content %}
+                          <div class="mt-1">
+                            <a href="{{ item.url }}" title="Learn more about {{ item.link_file_1_label }}"><i
+                                class="fas fa-angle-double-right"></i> Read More</a>
+                          </div>
+                          {% endif %}
                           {% if item.link_file_1_to %}
                           <div class="mt-1">
                             <a href="{{ item.link_file_1_to }}" class="text-white font-weight-bold" title="{{ item.link_file_1_label }}"><i class="fas fa-file"></i> {{ item.link_file_1_label }}</a>
