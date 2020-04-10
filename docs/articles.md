@@ -8,4 +8,4 @@ title: New & Articles
 ## Note, most of this page is built from information in the _articles folder
 ---
 
-# GenCC Articles
+# GenCC New & Articles
