@@ -13,10 +13,14 @@ url_articles: articles.html
 theme_remote: sgoehringer/gencc-static-test
 
 collections:
-  - members
-  - articles
-  - leadership
-  - projects
+  members:
+    output: true
+  articles:
+    output: true
+  leadership:
+    output: true
+  projects:
+    output: true
 
 leadership:
   sort_by: sort
