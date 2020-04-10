@@ -20,9 +20,9 @@
           {% assign sorted_items = site.leadership reversed  %}
           {% for item in sorted_items %}
             <li class="list-group-item">
-              <h4 class="h5 m-0 p-0">
-              </h4>
+              <h4 class="h5 m-0 p-0 font-weight-bold">
                 {{ item.title }}
+              </h4>
                 {% if item.position %}
                   <br /><i>{{ item.position }}</i>
                 {% endif %}
