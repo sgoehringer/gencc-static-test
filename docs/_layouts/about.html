@@ -17,7 +17,7 @@
         <div class="col-md-5 offset-md-2">
           <h2>{{ page.leadership_title }}</h2>
           <ul class="list-group"></ul>
-          {% assign sorted_items = site.leadership reversed  %}
+          {% assign sorted_items = site.leadership  %}
           {% for item in sorted_items %}
           {% if item.show_status != false %}
             <li class="list-group-item">
