@@ -1,5 +1,4 @@
 {% assign member_count = site.members | show_status != false %}
-{% member_count_size = 0 %}
 {% for item in site.members %}
   {% if item.show_status != false %}
     {% increment member_count_size %}
