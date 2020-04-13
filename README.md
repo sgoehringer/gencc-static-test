@@ -1,1 +1,1 @@
-# gencc-static-test
+# gencc-static-test to be deleted
