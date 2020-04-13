@@ -14,7 +14,7 @@ link_website_2_to:
 
 # Optional label of and logo (file should be added to assets) (Two availble at the moment).
 logo_1_label: Genomics Engand PanelApp
-logo_1_file: logo-panelapp-eng.png
+logo_1_file: logo-panelapp-eng.jpg
 logo_2_label:
 logo_2_file:
 
