@@ -8,6 +8,9 @@ date: March 14, 2020
 # Short summary of the article
 summary: To harmonize terms describing gene-disease validity, the GenCC used a Delphi method to survey both members of our GenCC organizations and the international genetics community.
 
+# Show this entry as a page
+show_status: true
+
 # Content can be added but not required.  At the moment this will only show on the home page area.
 ---
 To harmonize terms describing gene-disease validity, the GenCC used a Delphi method to survey both members of our GenCC organizations and the international genetics community.
