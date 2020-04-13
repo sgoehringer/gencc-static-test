@@ -1,4 +1,4 @@
-{% assign member_count = site.members %}
+{% assign member_count = site.members | show_status != false %}
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
