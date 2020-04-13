@@ -1,7 +1,7 @@
-{% assign member_count_size = 0 %}
+{% assign member_count_array = "" | split: ',' %}
 {% for item in site.members %}
   {% if item.show_status != false %}
-    {% member_count_size | plus:1 %}
+    {% assign member_count_array = member_count_array | push: title %}
   {% endif %}
 {% endfor %}
 
@@ -24,7 +24,7 @@
                   <div class="col-lg-12">
                     <h2>{{ page.section1-heading }}</h2>
                     <a href="{{ site.url }}{{ site.url_members }}" class="btn btn-primary float-right pl-3">
-                      <h2 class="p-0 m-0">{{ member_count_size }} member_count_size</h2>
+                      <h2 class="p-0 m-0">{{ member_count_array.size }} member_count_array.size</h2>
                       <small>GenCC Members</small>
                     </a>
                     {{ page.section1 }}
