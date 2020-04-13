@@ -9,7 +9,8 @@
   <main id="content" class="container" role="main">
     {{ content }}
     <hr />
-    {% for item in site.members | sort: 'name' %}
+    {% for item in site.members %}
+    {% if item.show_status != false %}
     <div class="mb-4 pb-4 row">
       <div class="col-12">
         {% if item.logo_1_file %}
@@ -42,6 +43,7 @@
         <hr>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
 
     {% include footer.html %}
