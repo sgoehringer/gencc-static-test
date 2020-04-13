@@ -75,6 +75,7 @@
                     <div class="col-lg-12">
                       <h2>{{ page.section3-heading }}</h2>
                       {% for item in site.projects | limit:4 %}
+                      {% if item.show_status != false %}
                       <div class="mb-4 row">
                         <div class="col-sm-2 float-right d-none  d-lg-block d-xl-block">
                           <img src="{{ site.url }}assets/icon-project.png" alt="Icon - {{ item.title }}" class="img-fluid" />
@@ -111,6 +112,7 @@
                           {% endif %}
                         </div>
                       </div>
+                      {% endif %}
                       {% endfor %}
                     </div>
                   </div>
@@ -135,6 +137,7 @@
                       <h2>{{ page.section4-heading }}</h2>
 
                       {% for item in site.articles | limit:4 %}
+                      {% if item.show_status != false %}
                       <div class="mb-5 row">
                         <div class="col-sm-2 float-right d-none  d-lg-block d-xl-block">
                           <img src="{{ site.url }}assets/icon-doc.png" alt="Icon - {{ item.title }}" class="img-fluid" />
@@ -174,6 +177,7 @@
                           {% endif %}
                         </div>
                         </div>
+                        {% endif %}
                       {% endfor %}
                     </div>
                   </div>

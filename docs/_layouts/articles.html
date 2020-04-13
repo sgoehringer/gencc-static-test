@@ -11,6 +11,7 @@
     <hr />
     {% assign sorted_items = site.articles  %}
     {% for item in sorted_items %}
+    {% if item.show_status != false %}
     <div class="mb-4 pt-4 pb-4 row">
       <div class="col-12">
         <div class="col-sm-2 float-right d-none  d-lg-block d-xl-block">
@@ -53,6 +54,7 @@
         <hr>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
 
 
