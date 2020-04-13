@@ -1,9 +1,11 @@
-{% assign member_count_size = 0 %}
-{% for item in site.members %}
-  {% if item.show_status != false %}
-    {% increment member_count_size %}
-  {% endif %}
-{% endfor %}
+{%
+  increment member_count_size
+  for item in site.members
+    if item.show_status != false
+      increment member_count_size
+    endif
+  endfor
+%}
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
