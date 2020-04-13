@@ -1,4 +1,10 @@
 {% assign member_count = site.members | show_status != false %}
+{% member_count_size = 0 %}
+{% for item in site.members %}
+  {% if item.show_status != false %}
+    {% increment member_count_size %}
+  {% endif %}
+{% endfor %}
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -19,7 +25,8 @@
                   <div class="col-lg-12">
                     <h2>{{ page.section1-heading }}</h2>
                     <a href="{{ site.url }}{{ site.url_members }}" class="btn btn-primary float-right pl-3">
-                      <h2 class="p-0 m-0">{{ member_count.size }}</h2>
+                      <h2 class="p-0 m-0">{{ member_count.size }} size</h2>
+                      <h2 class="p-0 m-0">{{ member_count_size }} member_count_size</h2>
                       <small>GenCC Members</small>
                     </a>
                     {{ page.section1 }}
