@@ -19,7 +19,7 @@ logo_2_label:
 logo_2_file:
 
 # Show this entry as a page
-show_status: true
+show_status: false
 
 # Content isn't currently used but could be added with a few quick updates if needed to allow for pages
 ---
